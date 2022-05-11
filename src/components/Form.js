@@ -13,7 +13,7 @@ const Form = {
       <input
         autocomplete='off'
         name='name'
-        placeholder='Name*'
+        placeholder='Name*'g
         required
       />
 
@@ -47,10 +47,10 @@ const Form = {
 
       try {
         const response = await emailjs.send(
-          "Your Service Id",
-          "Your Template Id",
+          "service_ix2ir2p",
+          "template_k8i2xmn",
           data,
-          "Your User Id"
+          "Rlu6snwLZH7NLu7T0"
         );
 
         if (response.status === 200) {
