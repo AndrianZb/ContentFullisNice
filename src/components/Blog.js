@@ -3,12 +3,12 @@ const Blog = {
   render: (blog) => {
     return `<div class="blog">
               <div class="blog-img">
-                <a href="/#/blogs/${blog.slug}">
-                <img src="https:${blog.thumbnail}" alt="" /></a>
+                <a href="/#/blogs/${blog.strValue}">
+                <img src="https:${blog.strValue}" alt="" /></a>
               </div>
               <div class="blog-text">
                 <h2>
-                  <a href="/#/blogs/${blog.slug}"
+                  <a href="/#/blogs/${blog.helloWorld}"
                     >${
                       blog.title.length > 40
                         ? blog.title.substr(0, 40) + " ..."
@@ -17,7 +17,7 @@ const Blog = {
                   >
                 </h2>
                 <div class="d-flex">
-                  <div class="category">${blog.category}</div>
+                  <div class="category">${blog.}</div>
                   <div class="date">${format(
                     parseISO(blog.createdAt),
                     "PPP"
