@@ -54,7 +54,7 @@ const Form = {
         );
 
         if (response.status === 200) {
-          swal.fire("Great Job!", "Thanks for Contacting Us!", "success");
+          swal.fire("Your message was sent ", "Thank you for contracting me", "success");
         }
       } catch (error) {
         console.log(error);
