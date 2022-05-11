@@ -9,7 +9,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1>${strValue}</h1>
+            <h1 id="AboutMe"></h1>
             </div>
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -42,5 +42,5 @@ const AboutScreen = {
             </div>`;
   },
 };
-
+document.getElementById('AboutMe').innerText = strValue;
 export default AboutScreen;
