@@ -12,8 +12,8 @@ export const getBlogs = async () => {
       content_type: "databaseData",
     });
     console.log(response);
-    console.log(response.items.helloWorld);
-    alert(response.items[0].helloWorld);
+    console.log(response.items[0].fields.helloWorld);
+    alert(response.items[0].fields.helloWorld);
     let blogs = response.items;
     blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
