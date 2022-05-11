@@ -50,9 +50,7 @@ li {
 }
 
 @media (max-width: 1200px) {
-  .container {
-    padding: 0 3rem;
-  }
+
 }
 
 .d-flex {
@@ -441,6 +439,8 @@ li {
 
 @media (max-width: 1200px) {
   .blog-detail {
+    grid-template-columns: 1fr;
+    max-width: 800px;
     gap: 0;
   }
 
