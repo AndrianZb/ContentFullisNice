@@ -1,9 +1,15 @@
-import { createClient } from "contentful";
 
+import { createClient } from "contentful";
+let strValue = "";
 const client = createClient({
   space: "sqzdd6o0iz0g",
   accessToken: "x9jae8sbU24uh4UX_IpBp9Y8Tg2KT2FEe7M-ngM6pqk",
 });
+
+
+
+
+
 
 export const getBlogs = async () => {
   try {
@@ -14,6 +20,7 @@ export const getBlogs = async () => {
     console.log(response);
     console.log(response.items[0].fields.helloWorld);
     alert(response.items[0].fields.helloWorld);
+    strValue = response.items[0].fields.helloWorld;
     let blogs = response.items;
     blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
@@ -37,6 +44,7 @@ export const getBlogs = async () => {
     console.log(err);
   }
 };
+
 
 export const getBlog = async (slug) => {
   try {
