@@ -12,25 +12,16 @@ const AboutScreen = {
             <h1 id="AboutMe"></h1>
             </div>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laborum labore recusandae ratione dolorum deserunt maiores,
-            magni magnam ab vitae provident expedita eius alias quisquam
-            tempora temporibus, molestiae consequatur esse id.
+           !!!
             </p>
             <div class="content-img">
             <img src="./images/profile.jpg" alt="" />
             </div>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laborum labore recusandae ratione dolorum deserunt maiores,
-            magni magnam ab vitae provident expedita eius alias quisquam
-            tempora temporibus, molestiae consequatur esse id.
+            weawe
             </p>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laborum labore recusandae ratione dolorum deserunt maiores,
-            magni magnam ab vitae provident expedita eius alias quisquam
-            tempora temporibus, molestiae consequatur esse id.
+          assss
             </p>
             </div>
             </div>
