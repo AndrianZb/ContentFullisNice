@@ -14,6 +14,7 @@ export const getBlogs = async (limit = 6, skip = 0) => {
       skip,
     });
     console.log(response);
+    console.log(response.items.helloWorld);
     let blogs = response.items;
     blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
