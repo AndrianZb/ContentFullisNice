@@ -1,18 +1,20 @@
 import { createClient } from "contentful";
 
 const client = createClient({
-  space: "contentful space Id here",
-  accessToken: "contentful access token here",
+  space: "sqzdd6o0iz0g",
+  accessToken: "x9jae8sbU24uh4UX_IpBp9Y8Tg2KT2FEe7M-ngM6pqk",
 });
 
 export const getBlogs = async (limit = 6, skip = 0) => {
   try {
     // Pagination
     const response = await client.getEntries({
-      content_type: "blog",
+      content_type: "databaseData",
       limit,
       skip,
     });
+    console.log(response);
+    alert(response)
     let blogs = response.items;
     blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
