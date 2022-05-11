@@ -24,6 +24,7 @@ export const getBlogs = async (limit = 6, skip = 0) => {
       const authorImage = item.fields.authorImage.fields.file.url;
       return {
         id,
+        name,
         title,
         thumbnail,
         slug,
