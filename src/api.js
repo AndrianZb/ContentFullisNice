@@ -5,13 +5,11 @@ const client = createClient({
   accessToken: "x9jae8sbU24uh4UX_IpBp9Y8Tg2KT2FEe7M-ngM6pqk",
 });
 
-export const getBlogs = async (limit = 6, skip = 0) => {
+export const getBlogs = async () => {
   try {
     // Pagination
     const response = await client.getEntries({
       content_type: "databaseData",
-      limit,
-      skip,
     });
     console.log(response);
     console.log(response.items.helloWorld);
