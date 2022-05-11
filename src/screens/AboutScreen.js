@@ -42,5 +42,5 @@ const AboutScreen = {
             </div>`;
   },
 };
-document.getElementById('AboutMe').innerText = strValue;
+document.getElementById('AboutMe').innerText = "gaewewae";
 export default AboutScreen;
