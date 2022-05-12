@@ -12,7 +12,7 @@ const AboutScreen = {
             <h1 id="AboutMe"></h1>
             </div>
             <p>
-           !!!
+           ${strValue}
             </p>
             <div class="content-img">
             <img src="./images/profile.jpg" alt="" />
@@ -25,11 +25,7 @@ const AboutScreen = {
             </p>
             </div>
             </div>
-            <div class="side-ad">
-              <a href="#" class="vertical-ad">
-              <img src="/images/side-ad.svg"/>
-              </a>
-            </div>
+            
             </div>`;
   },
 };
