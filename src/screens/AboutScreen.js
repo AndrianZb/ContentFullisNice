@@ -9,10 +9,9 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe"></h1>
+            <h1 id="AboutMe">ggigi</h1>
             </div>
             <p>
-           ${strValue}
             </p>
             <div class="content-img">
             <img src="./images/profile.jpg" alt="" />
