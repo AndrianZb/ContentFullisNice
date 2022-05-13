@@ -1,3 +1,5 @@
+const cat = localStorage.getItem('myCat');
+
 const AboutScreen = {
 
   
@@ -12,7 +14,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">${items[0].fields.helloWorld}</h1>
+            <h1 id="AboutMe">${cat}</h1>
             </div>
             <p>
             </p>
