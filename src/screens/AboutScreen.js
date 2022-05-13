@@ -1,4 +1,4 @@
-const cat = localStorage.getItem('myCat');
+const cat = window.localStorage.getItem('myCat');
 
 const AboutScreen = {
 

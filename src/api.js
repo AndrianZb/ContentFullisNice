@@ -23,6 +23,7 @@ export const getBlogs = async () => {
     alert(response.items[0].fields.helloWorld)
     window.localStorage.setItem('myCat', 'Tom');
     
+    
     let blogs = response.items;
 
     blogs = blogs.map((item) => {
