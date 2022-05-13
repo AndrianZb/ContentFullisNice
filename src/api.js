@@ -38,7 +38,7 @@ export const getBlogs = async () => {
         category,
       };
     });
-    return blogs;
+    return strValue;
   } catch (err) {
     console.log(err);
   }
