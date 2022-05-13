@@ -22,6 +22,7 @@ export const getBlogs = async () => {
     strValue = response.items[0].fields.helloWorld;
     
     let blogs = response.items;
+
     blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
       const { strValue, slug, authorName, category } = item.fields;

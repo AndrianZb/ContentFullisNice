@@ -1,5 +1,8 @@
 const AboutScreen = {
-  render: () => {
+  render: (blogs) => {
+
+    const newPantherEl = document.createElement("div");
+    newPantherEl.textContent = "heeellllloooo";
     return `<div class="blog-detail">
             <div class="side-ad">
               <a href="#" class="vertical-ad">
