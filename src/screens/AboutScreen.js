@@ -1,8 +1,8 @@
 const AboutScreen = {
+
+  
   render: (blogs) => {
 
-    const newPantherEl = document.createElement("div");
-    newPantherEl.textContent = "heeellllloooo";
     return `<div class="blog-detail">
             <div class="side-ad">
               <a href="#" class="vertical-ad">
@@ -12,7 +12,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">ggigi</h1>
+            <h1 id="AboutMe">${items[0].fields.helloWorld}</h1>
             </div>
             <p>
             </p>

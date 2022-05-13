@@ -27,7 +27,7 @@ const Blog = {
                   <div class="author-image">
                     <img src="https:${blog.strValue}" alt="" />
                   </div>
-                  <div class="author-name">${blog.strValue}</div>
+                  <div class="author-name">${blog.authorName}</div>
                 </div>
               </div>
             </div>`;
