@@ -30,6 +30,7 @@ const ContactScreen = {
             magni magnam ab vitae provident expedita eius alias quisquam
             tempora temporibus, molestiae consequatur esse id.
             </p>
+            ${Form.render()}
             </div>
             </div>
             <div class="side-ad">
