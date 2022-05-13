@@ -8,7 +8,7 @@ const Blog = {
               </div>
               <div class="blog-text">
                 <h2>
-                  <a href="/#/blogs/${blog.helloWorld}"
+                  <a href="/#/blogs/${blog.strValue}"
                     >${
                       blog.title.length > 40
                         ? blog.title.substr(0, 40) + " ..."
@@ -17,7 +17,7 @@ const Blog = {
                   >
                 </h2>
                 <div class="d-flex">
-                  <div class="category">${blog.}</div>
+                  <div class="category">${blog.strValue}</div>
                   <div class="date">${format(
                     parseISO(blog.createdAt),
                     "PPP"
@@ -25,9 +25,9 @@ const Blog = {
                 </div>
                 <div class="author d-flex">
                   <div class="author-image">
-                    <img src="https:${blog.authorImage}" alt="" />
+                    <img src="https:${blog.strValue}" alt="" />
                   </div>
-                  <div class="author-name">${blog.authorName}</div>
+                  <div class="author-name">${blog.strValue}</div>
                 </div>
               </div>
             </div>`;

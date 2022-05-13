@@ -20,7 +20,7 @@ const AboutScreen = {
             weawe
             </p>
             <p>
-          assss
+          hellop
             </p>
             </div>
             </div>
