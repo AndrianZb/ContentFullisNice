@@ -68,10 +68,7 @@ const DetailsScreen = {
     return blogdetails.map(
       (blog) => `
     <div class="blog-detail">
-            <div class="side-ad">
-              <a href="#" class="vertical-ad">
-              <img src="/images/side-ad.svg"/>
-              </a></div>
+           
             <div class="article-container">
               <div class="top">
                 <h1>${blog.title}</h1>
@@ -90,11 +87,7 @@ const DetailsScreen = {
               <div class="featured-image">
                 <img src="https:${blog.featuredImage}" alt="" />
               </div>
-              <div class="ad d-flex">
-                <a href="">
-                <img src="/images/horizontal-ad.svg" />
-                </a>
-              </div>
+           
               <div class="content">
                 ${documentToHtmlString(blog.details, renderOptions)}
               </div>
