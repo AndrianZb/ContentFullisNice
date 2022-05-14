@@ -343,7 +343,6 @@ li {
   max-width: 125rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 800px 1fr;
   gap: 2rem;
 }
 
