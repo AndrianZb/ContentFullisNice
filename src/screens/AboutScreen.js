@@ -13,12 +13,12 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">!!hee!</h1>
+            <h1 id="AboutMe">!!hgee!</h1>
             </div>
             <p>
             </p>
             <div class="content-img">
-            <img src="./images/profile.jpg" alt="heyy" />
+            <img src="./images/profile1.jpg" alt="heyy" />
             </div>
             <p>
             weawe
