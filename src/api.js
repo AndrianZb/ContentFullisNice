@@ -7,7 +7,7 @@ const client = createClient({
 });
 
 
-var strValue = "";
+var strValue = "123";
 
 
 
