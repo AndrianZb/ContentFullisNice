@@ -4,7 +4,6 @@ import {str2} from "../api.js";
 const AboutScreen = {
   
   render: () => {
-    const blogs = await getBlogs();
     return `<div class="blog-detail">
             <div class="side-ad">
               <a href="#" class="vertical-ad">

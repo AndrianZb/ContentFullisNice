@@ -7,7 +7,6 @@ const client = createClient({
 });
 
 
-var strValue = "----";
 
 
 
@@ -19,7 +18,7 @@ export const getBlogs = async () => {
     });
     console.log(response);
     console.log(response.items[0].fields.helloWorld);
-    strValue = response.items[0].fields.helloWorld;
+    var strValue = response.items[0].fields.helloWorld;
     alert(response.items[0].fields.helloWorld)
 
     
