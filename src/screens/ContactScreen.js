@@ -2,11 +2,7 @@ import Form from "../components/Form.js";
 const ContactScreen = {
   render: () => {
     return `<div class="blog-detail">
-            <div class="side-ad">
-              <a href="#" class="vertical-ad">
-              <img src="/images/side-ad.svg"/>
-              </a>
-            </div>
+         
             <div class="article-container">
             <div class="content">
             <p>
@@ -33,11 +29,7 @@ const ContactScreen = {
             ${Form.render()}
             </div>
             </div>
-            <div class="side-ad">
-              <a href="#" class="vertical-ad">
-              <img src="/images/side-ad.svg"/>
-              </a>
-            </div>
+      
             </div>`;
   },
   after_render: async () => {

@@ -99,11 +99,7 @@ const DetailsScreen = {
                 ${documentToHtmlString(blog.details, renderOptions)}
               </div>
             </div>
-            <div class="side-ad">
-              <a href="#" class="vertical-ad">
-              <img src="/images/side-ad.svg"/>
-              </a>
-            </div>
+       
           </div>
     `
     );
