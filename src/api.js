@@ -16,16 +16,15 @@ export const getBlogs = async () => {
     // Pagination
     const response = await client.getEntries({
       content_type: "databaseData",
-    });
+    }).then((entry) => entry)
+    .catch(console.error);
+
     console.log(response);
     console.log(response.items[0].fields.helloWorld);
     strValue = response.items[0].fields.helloWorld;
 
     
     let blogs = response.items;
-
-   
-
     /*blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
       const { strValue, slug, authorName, category } = item.fields;
