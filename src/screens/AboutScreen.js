@@ -1,5 +1,5 @@
 const cat = window.localStorage.getItem('myCat');
-import {strValue} from "src/api.js";
+import {str2} from "src/api.js";
 const AboutScreen = {
   
   render: () => {
@@ -13,7 +13,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe"></h1>
+            <h1 id="AboutMe">${str2}</h1>
             </div>
             <p>
             </p>

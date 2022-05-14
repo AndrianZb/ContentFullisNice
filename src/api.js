@@ -50,7 +50,7 @@ export const getBlogs = async () => {
   }
 };
 
-
+export const str2 = 'hiihii';
 export const getBlog = async (slug) => {
   try {
     const response = await client.getEntries({
