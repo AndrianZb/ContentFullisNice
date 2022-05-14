@@ -27,7 +27,7 @@ export const getBlogs = async () => {
 
    
 
-    blogs = blogs.map((item) => {
+    /*blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
       const { strValue, slug, authorName, category } = item.fields;
       const thumbnail = item.fields.thumbnail.fields.file.url;
@@ -41,12 +41,11 @@ export const getBlogs = async () => {
         authorImage,
         createdAt,
         category, };
-     
-    });
+    }); */
     return strValue;
   } catch (err) {
     console.log(err);
   }
 };
-
-export var str2 = strValue;
+var str  = getBlogs().then(value => console.log(value) )
+export var str ;
