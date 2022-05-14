@@ -50,7 +50,7 @@ export const getBlogs = async () => {
   }
 };
 
-export const str2 = strValue;
+export var str2 = strValue;
 
 export const getBlog = async (slug) => {
   try {
