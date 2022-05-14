@@ -47,5 +47,6 @@ export const getBlogs = async () => {
     console.log(err);
   }
 };
-var str  = getBlogs().then(value => value=strValue )
+
+var str  = getBlogs().then(value => strValue )
 export var str ;
