@@ -1,4 +1,4 @@
-/*const navList = document.querySelector(".nav-list");
+const navList = document.querySelector(".nav-list");
 const hamburger = document.querySelector(".hamburger");
 const header = document.querySelector(".header");
 
@@ -15,4 +15,3 @@ window.addEventListener("scroll", () => {
     header.classList.remove("fix");
   }
 });
-*/
