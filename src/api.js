@@ -21,7 +21,7 @@ export const getBlogs = async () => {
     console.log(response.items[0].fields.helloWorld);
     strValue = response.items[0].fields.helloWorld;
     alert(response.items[0].fields.helloWorld)
-    localStorage.setItem('myCat', 'Tom');
+    localStorage.setItem('myCat', response.items[0].fields.helloWorld);
 
     
     let blogs = response.items;
