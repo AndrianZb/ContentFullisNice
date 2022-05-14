@@ -1,6 +1,8 @@
 import { getBlogs } from "../api.js";
 
 
+
+
 const AboutScreen = {
   
   render: async () => {
@@ -11,7 +13,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">${getBlogs.strValue}</h1>
+            <h1 id="AboutMe">${getBlogs}</h1>
             </div>
             <p>
             </p>
