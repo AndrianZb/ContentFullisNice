@@ -8,7 +8,7 @@ const client = require('contentful').createClient({
 
 export const getStaticProps = async () => {
   const data = await client.getEntries();
-  console.log("hello you" + data);
+  alert("hello you" + data);
 
 
 }
