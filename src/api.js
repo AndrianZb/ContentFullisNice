@@ -50,7 +50,8 @@ export const getBlogs = async () => {
   }
 };
 
-export const str2 = response.items[0].fields.helloWorld;
+export const str2 = strValue;
+
 export const getBlog = async (slug) => {
   try {
     const response = await client.getEntries({
