@@ -90,7 +90,7 @@ li {
 
 /* Header */
 .header {
-  background-color: var(--black2);
+  background-color: rgba(173, 47, 47, 0.2);
   height: 7.5rem;
   line-height: 7.5rem;
 }
