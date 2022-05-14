@@ -40,7 +40,9 @@ export const getBlogs = async () => {
         authorName,
         authorImage,
         createdAt,
-        category, };});
+        category, };
+     
+    });
     return strValue;
   } catch (err) {
     console.log(err);
@@ -48,31 +50,3 @@ export const getBlogs = async () => {
 };
 
 export var str2 = strValue;
-
-export const getBlog = async (slug) => {
-  try {
-    const response = await client.getEntries({
-      content_type: "blog",
-      "fields.slug": slug,
-    });
-    let blogdetails = response.items;
-    blogdetails = blogdetails.map((item) => {
-      const { id, createdAt } = item.sys;
-      const { title, authorName, category } = item.fields;
-      const details = item.fields.details;
-      const featuredImage = item.fields.featuredImage.fields.file.url;
-      return {
-        id,
-        title,
-        featuredImage,
-        details,
-        authorName,
-        createdAt,
-        category,
-      };
-    });
-    return blogdetails;
-  } catch (err) {
-    console.log(err);
-  }
-};
