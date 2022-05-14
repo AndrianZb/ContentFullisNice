@@ -5,7 +5,7 @@ import { getBlogs } from "../api.js";
 
 const AboutScreen = {
   
-  render: async () => {
+  render: () => {
     //const blogs = await getBlogs();
   //  alert(blogs);
     return `<div class="blog-detail">
