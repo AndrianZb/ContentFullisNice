@@ -1,7 +1,6 @@
 const cat = window.localStorage.getItem('myCat');
-import {strValue} from "api.js";
+import {strValue} from "src/api.js";
 const AboutScreen = {
-
   
   render: () => {
 
