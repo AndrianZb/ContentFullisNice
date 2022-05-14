@@ -1,4 +1,4 @@
-
+const cat = window.localStorage.getItem('myCat');
 import {strValue} from api.js;
 const AboutScreen = {
 
@@ -14,7 +14,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">${strValue}</h1>
+            <h1 id="AboutMe">${cat}</h1>
             </div>
             <p>
             </p>
