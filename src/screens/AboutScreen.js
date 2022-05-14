@@ -13,7 +13,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">${str2}</h1>
+            <h1 id="AboutMe">${getBlogs.strValue}</h1>
             </div>
             <p>
             </p>
