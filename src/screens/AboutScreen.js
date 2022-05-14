@@ -18,7 +18,7 @@ const AboutScreen = {
             <p>
             </p>
             <div class="content-img">
-            <img src="./images/profile.jpg" alt="" />
+            <img src="./images/profpicture2.jpg" alt="" />
             </div>
             <p>
             weawe

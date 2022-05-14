@@ -12,6 +12,7 @@ var strValue = "----";
 
 
 export const getBlogs = async () => {
+
   try {
     // Pagination
     const response = await client.getEntries({
