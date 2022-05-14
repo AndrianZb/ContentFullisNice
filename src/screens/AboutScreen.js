@@ -3,7 +3,7 @@ import { getBlogs } from "../api.js";
 
 const AboutScreen = {
   
-  render: async (strValue) => {
+  render: async () => {
     const blogs = await getBlogs();
 
     return `<div class="blog-detail">
