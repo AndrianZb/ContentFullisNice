@@ -16,7 +16,7 @@ export const getBlogs = async () => {
     // Pagination
     const response = await client.getEntries({
       content_type: "databaseData",
-    }).then((entry) => entry)
+    }).then((strValue) => strValue)
     .catch(console.error);
 
     console.log(response);
