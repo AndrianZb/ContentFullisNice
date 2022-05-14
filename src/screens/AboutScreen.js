@@ -15,7 +15,8 @@ const AboutScreen = {
             <div class="top">
             <h1 id="AboutMe">Andrian Zberea</h1>
             </div>
-            <h2>Web Developer, Software Developer & Machine Learning Enthusiast.            </h2>
+            <br/>
+            <h2>Web Developer, Software Developer & Machine Learning Enthusiast.</h2>
             <p>
             Proven technical abilities and a distinguished record for achieving cost-saving measures in a secure environment. Highly energetic and driven to succeed. Recognized for interpersonal and problem-solving skills.
             </p>
