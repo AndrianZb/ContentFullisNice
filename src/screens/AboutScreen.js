@@ -1,5 +1,4 @@
 import { getBlogs } from "../api.js";
-import {strValue} from "../api.js";
 
 
 const AboutScreen = {
@@ -12,7 +11,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">${strValue}</h1>
+            <h1 id="AboutMe">${getBlogs.strValue}</h1>
             </div>
             <p>
             </p>
