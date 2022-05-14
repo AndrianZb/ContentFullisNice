@@ -32,8 +32,15 @@ export const getBlogs = async () => {
       const { strValue, slug, authorName, category } = item.fields;
       const thumbnail = item.fields.thumbnail.fields.file.url;
       const authorImage = item.fields.authorImage.fields.file.url;
-    });
-        
+      return {
+        id,
+        strValue,
+        thumbnail,
+        slug,
+        authorName,
+        authorImage,
+        createdAt,
+        category, };});
     return strValue;
   } catch (err) {
     console.log(err);
