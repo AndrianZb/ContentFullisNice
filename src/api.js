@@ -1,5 +1,6 @@
 
 import { createClient } from "contentful";
+import AboutScreen from "./screens/AboutScreen";
 
 const client = createClient({
   space: "sqzdd6o0iz0g",
@@ -19,8 +20,11 @@ export const getBlogs = async () => {
     });
     console.log(response);
     console.log(response.items[0].fields.helloWorld);
+
+
     strValue = response.items[0].fields.helloWorld;
 
+    {AboutScreen} 
     
     let blogs = response.items;
 
