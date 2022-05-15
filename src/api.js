@@ -12,22 +12,21 @@ var strValue = "----";
 
 
 export const getBlogs = async () => {
-
   try {
     // Pagination
     const response = await client.getEntries({
       content_type: "databaseData",
-    }).then((strValue) => strValue = response.items[0].fields.helloWorld)
-    .catch(console.error);
-
+    });
     console.log(response);
     console.log(response.items[0].fields.helloWorld);
     strValue = response.items[0].fields.helloWorld;
+    alert(response.items[0].fields.helloWorld)
 
     
     let blogs = response.items;
 
-    let strblogs = response.items[0].fields.helloWorld;
+   
+
     /*blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
       const { strValue, slug, authorName, category } = item.fields;
@@ -43,11 +42,11 @@ export const getBlogs = async () => {
         createdAt,
         category, };
     }); */
-    return strblogs;
+    return strValue;
   } catch (err) {
     console.log(err);
   }
 };
 
-//var str  = getBlogs().then(value => strValue )
+var str  = getBlogs().then(value => strValue )
 export var str ;
