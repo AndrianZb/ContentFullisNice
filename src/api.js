@@ -20,15 +20,9 @@ export const getBlogs = async () => {
     });
     //console.log(response);
     //console.log(response.items[0].fields.helloWorld);
-
-
     strValue = response.items[0].fields.helloWorld;
 
-    
     let blogs = response.items;
-
-   
-
     /*blogs = blogs.map((item) => {
       const { id, createdAt } = item.sys;
       const { strValue, slug, authorName, category } = item.fields;
@@ -48,6 +42,7 @@ export const getBlogs = async () => {
   } catch (err) {
     console.log(err);
   }
+
 };
 
 var str  = getBlogs().then(value => strValue )

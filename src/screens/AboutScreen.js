@@ -2,7 +2,9 @@ import { getBlogs } from "../api.js";
 import {strValue} from "../api.js";
 
 
-
+const response = await client.getEntries({
+  content_type: "databaseData",
+});
 const AboutScreen = {
   
   render: () => {
@@ -13,8 +15,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">${strValue}</h1> 
-            <h1 id="AboutMe">${getBlogs}</h1> 
+            <h1 id="AboutMe">${response.items[0].fields.helloWorld}</h1> 
             <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
             </div>
