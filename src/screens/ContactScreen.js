@@ -6,25 +6,16 @@ const ContactScreen = {
             <div class="article-container">
             <div class="content">
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laborum labore recusandae ratione dolorum deserunt maiores,
-            magni magnam ab vitae provident expedita eius alias quisquam
-            tempora temporibus, molestiae consequatur esse id.
+         text here
             </p>
             <div class="content-img">
             <img src="./images/Asset 4.svg" alt="" />
             </div>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laborum labore recusandae ratione dolorum deserunt maiores,
-            magni magnam ab vitae provident expedita eius alias quisquam
-            tempora temporibus, molestiae consequatur esse id.
+         test in here
             </p>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Laborum labore recusandae ratione dolorum deserunt maiores,
-            magni magnam ab vitae provident expedita eius alias quisquam
-            tempora temporibus, molestiae consequatur esse id.
+         ggawsew
             </p>
             ${Form.render()}
             </div>
