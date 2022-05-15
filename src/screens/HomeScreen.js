@@ -6,9 +6,9 @@ const HomeScreen = {
   render: async () => {
   
     return `<div>
-    <h1> Welcome to my e-portfolio. As a programmer, I am always open to learning new ideas and new technologies.</h1>
-
-    <div class="border border-primary">
+    <h1><i> Welcome to my e-portfolio. As a programmer, I am always open to learning new ideas and new technologies. </i></h1>
+<br/>
+    <div style="border-style: solid; border-color: #3890af; border-width: 50px" class="border border-primary">
     <p style="float: left;"><img src="../images/wow.png" alt="heyy" /></p>
     <p><ul>
     <li>DEC, COMPUTER SCIENCE: TECHNOLOGY <strong>2019 - 2022</strong> <br/>Champlain Regional College</li>
