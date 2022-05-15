@@ -9,11 +9,11 @@ const HomeScreen = {
     <h1> Welcome to my e-portfolio. As a programmer, I am always open to learning new ideas and new technologies.</h1>
 
     <div>
-    <p style="float: left;"><img src="http://placekitten.com/g/200/200" height="200px" width="200px" border="1px"></p>
+    <p style="float: left;"><img src="../images/wow.png" alt="heyy" /></p>
     <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
 </div>
 <div style="clear: left;">
-    <p style="float: left;"><img src="http://placekitten.com/g/200/200" height="200" width="200" border="1px"></p>
+    <p style="float: left;"><img src="../images/wow.png" alt="heyy" /></p>
     <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
 </div>
 
