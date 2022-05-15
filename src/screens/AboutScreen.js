@@ -1,19 +1,3 @@
-
-import { createClient } from "contentful";
-
-const client = createClient({
-  space: "sqzdd6o0iz0g",
-  accessToken: "x9jae8sbU24uh4UX_IpBp9Y8Tg2KT2FEe7M-ngM6pqk",
-});
-
-
-var strValue = "----";
-
-
-
-const response = await client.getEntries({
-  content_type: "databaseData",
-});
 const AboutScreen = {
   
   render: () => {
@@ -24,7 +8,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">${response.items[0].fields.helloWorld}</h1> 
+            <h1 id="AboutMe">Andrian </h1> 
             <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
             </div>
