@@ -9,18 +9,20 @@ const HomeScreen = {
     <h1> Welcome to my e-portfolio. As a programmer, I am always open to learning new ideas and new technologies.<h1>
 
     <div class="content-img">
-    <img src="../images/ff.png" alt="heyy" />
+    <img src="../images/wow.png" alt="heyy" />
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
-    </div>
-    <h2>As of late, my hobby is exploring machine learning methods.</h2>
+
+    <div>As of late, my hobby is exploring machine learning methods.</div>
     Please contact me in the <strong>Hire Me</strong> section for any inquiries.
     </div>
     
-    <h2>My hobbies</h2>
+    <div>My hobbies</div>
     <div>Attending Cisco Connect Conventions</div>
     <div>Going to Montreal theatres</div> 
     <div>Collecting suits and watches</div>
+    </div>
+    
 
     <h2>Follow Contact Me On :    <a>GitHub</a>  <a>LinkedIn</a> </h2>
         
