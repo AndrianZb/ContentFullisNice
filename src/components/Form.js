@@ -8,7 +8,7 @@ const Form = {
       id="contactform"
       disabled
     >
-      <h4>Contact Us</h4>
+      <h4>Contact Me</h4>
 
       <input
         autocomplete='off'
