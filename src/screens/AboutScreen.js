@@ -8,7 +8,7 @@ const AboutScreen = {
             <div class="article-container">
             <div class="content">
             <div class="top">
-            <h1 id="AboutMe">Andrian </h1> 
+            <h1 id="AboutMe">Hi, my name is Andrian Zberea</h1> 
             <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
             </div>

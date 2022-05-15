@@ -5,9 +5,7 @@ const ContactScreen = {
          
             <div class="article-container">
             <div class="content">
-            <p>
-         text here
-            </p>
+           
             <div class="content-img">
             <img style="border-radius: 20px" src="./images/Asset 4.svg" alt="" />
             </div>
