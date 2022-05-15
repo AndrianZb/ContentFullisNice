@@ -31,7 +31,7 @@ const HomeScreen = {
 
 
 <div style="border-style: solid; border-color: #3890af; border-width: 50px" class="border border-primary">
-<p style="float: right;"><img src="../images/wow.png" alt="heyy" /></p>
+<p style="float: right;"><img src="../images/watch.jpg" alt="heyy" /></p>
 <p>
 <h2 style="border-radius: 10px;background-color: lightblue;"> Welcome to my Portfolio ! </h2>
 <ul>
