@@ -15,14 +15,7 @@ const AboutScreen = {
             <div class="top">
             <h1 id="AboutMe">Andrian Zberea</h1>
             <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-<h1>
-  <em>C</em>
-  <em class="planet left">O</em>
-  <em>S</em>
-  <em>M</em>
-  <em class="planet right">O</em>
-  <em>S</em>
-</h1>
+
             </div>
             <br/>
             <h2>Web Developer, Software Developer & Machine Learning Enthusiast.</h2>
