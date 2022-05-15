@@ -44,7 +44,7 @@ export const getBlogs = async () => {
         createdAt,
         category, };
     }); */
-    return strValue;
+    return response.items[0].fields.helloWorld;
   } catch (err) {
     console.log(err);
   }
