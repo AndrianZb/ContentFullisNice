@@ -9,7 +9,7 @@ const ContactScreen = {
          text here
             </p>
             <div class="content-img">
-            <img src="./images/Asset 4.svg" alt="" />
+            <img style="border-radius: 20px" src="./images/Asset 4.svg" alt="" />
             </div>
             <p>
          test in here
