@@ -10,15 +10,25 @@ const HomeScreen = {
 
     <div>
     <p style="float: left;"><img src="../images/wow.png" alt="heyy" /></p>
-    <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
+    <p><ul>
+    <li>DEC, COMPUTER SCIENCE: TECHNOLOGY <strong>2019 - 2022</strong> <br/>Champlain Regional College</li>
+    <li>CS50 PYTHON WEBINAR <strong>2021</strong> <br/>Harvard Online Course</li>
+ 
+  </ul>  
+  <h2 style="border-radius: 10px;background-color: lightblue;"> Professional Experience</h2>
+  <ul>
+  <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> <br/>NexOne, Saint-Hubert, QC</li>
+  <li>IT SUPPORT AGENT <strong>2019 - 2020</strong> <br/>NexOne, Saint-Hubert, QC</li>
+  </ul>  </p>
 </div>
 <div style="clear: left;">
-    <p style="float: left;"><img src="../images/wow.png" alt="heyy" /></p>
-    <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
+   
 </div>
 
     <h2>Follow Contact Me On :    <a>GitHub</a>  <a>LinkedIn</a> </h2>
-        
+    
+    
+</div>
     
     `;
   },
