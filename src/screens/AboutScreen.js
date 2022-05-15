@@ -15,6 +15,11 @@ const AboutScreen = {
             <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
             </div>
+            <div >
+            <p>
+               <a href="../images/CV_Andrian.pdf" class="button" download><i class="fa fa-download"></i>Download CV</a>
+            </p>
+            </div>
             <br/>
             <hr/>
             <br/>
