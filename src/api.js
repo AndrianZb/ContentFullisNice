@@ -18,13 +18,12 @@ export const getBlogs = async () => {
     const response = await client.getEntries({
       content_type: "databaseData",
     });
-    console.log(response);
-    console.log(response.items[0].fields.helloWorld);
+    //console.log(response);
+    //console.log(response.items[0].fields.helloWorld);
 
 
     strValue = response.items[0].fields.helloWorld;
 
-    {AboutScreen} 
     
     let blogs = response.items;
 
