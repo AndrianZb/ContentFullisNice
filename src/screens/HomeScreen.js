@@ -7,8 +7,8 @@ const HomeScreen = {
   
     return `<div>
     <h1> Welcome to my e-portfolio. As a programmer, I am always open to learning new ideas and new technologies.<h1>
-    <h2>As of late, my hobby is exploring machine learning methods.
-    Please contact me in the <strong>Hire Me</strong> section for any inquiries.<h2>
+    <h2>As of late, my hobby is exploring machine learning methods.</h2>
+    Please contact me in the <strong>Hire Me</strong> section for any inquiries.
     </div>`;
   },
 };

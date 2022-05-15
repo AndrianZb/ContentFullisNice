@@ -21,12 +21,19 @@ const AboutScreen = {
             Proven technical abilities and a distinguished record for achieving cost-saving measures in a secure environment. Highly energetic and driven to succeed. Recognized for interpersonal and problem-solving skills.
             </p>
             </div>
-            <p>
-            weawe
-            </p>
-            <p>
-          hellop
-            </p>
+            <h2>Education</h2>
+
+            <ul>
+              <li>DEC, COMPUTER SCIENCE: TECHNOLOGY</li>
+              <li>CS50 PYTHON WEBINAR</li>
+           
+            </ul>  
+            <h2>Professional Experience</h2>
+            <ul>
+            <li>JUNIOR DEVELOPER</li>
+            <li>IT SUPPORT AGENT</li>
+            </ul>  
+     
             </div>
             </div>
             
