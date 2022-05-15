@@ -18,14 +18,14 @@ const AboutScreen = {
             <br/>
             <h2>Web Developer, Software Developer & Machine Learning Enthusiast.</h2>
             <p>
-            Proven technical abilities and a distinguished record for achieving cost-saving measures in a secure environment. Highly energetic and driven to succeed. Recognized for interpersonal and problem-solving skills.
+            Proven technical abilities and a distinguished record for achieving cost-saving measures in a secure environment. Highly energetic and driven to succeed. Recognized for good workplace ethics and problem-solving skills.
             </p>
             </div>
             <h2>Education</h2>
 
             <ul>
-              <li>DEC, COMPUTER SCIENCE: TECHNOLOGY</li>
-              <li>CS50 PYTHON WEBINAR</li>
+              <li>DEC, COMPUTER SCIENCE: TECHNOLOGY <strong>2019 - 2022</strong></li>
+              <li>CS50 PYTHON WEBINAR <strong>2021</strong></li>
            
             </ul>  
             <h2>Professional Experience</h2>
