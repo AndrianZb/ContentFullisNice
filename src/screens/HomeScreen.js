@@ -1,7 +1,7 @@
 import { getBlogs } from "../api.js";
 
 import Blog from "../components/Blog.js";
-/*
+
 const HomeScreen = {
   render: async () => {
     const blogs = await getBlogs();
@@ -33,14 +33,7 @@ const HomeScreen = {
     }
   },
 };
-*/
 
 
-const HomeScreen = {
-  render: async () => {
-`<div> hello </div>`
 
-
-  },
-};
 export default HomeScreen;
