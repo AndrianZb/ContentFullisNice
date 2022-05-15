@@ -8,7 +8,7 @@ const HomeScreen = {
     return `<div>
     <h1> Welcome to my e-portfolio. As a programmer, I am always open to learning new ideas and new technologies.</h1>
 
-    <div>
+    <div class="border border-primary">
     <p style="float: left;"><img src="../images/wow.png" alt="heyy" /></p>
     <p><ul>
     <li>DEC, COMPUTER SCIENCE: TECHNOLOGY <strong>2019 - 2022</strong> <br/>Champlain Regional College</li>
@@ -20,7 +20,8 @@ const HomeScreen = {
   <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> <br/>NexOne, Saint-Hubert, QC</li>
   <li>IT SUPPORT AGENT <strong>2019 - 2020</strong> <br/>NexOne, Saint-Hubert, QC</li>
   </ul>  </p>
-</div>
+  </div>
+
 <div style="clear: left;">
    
 </div>
