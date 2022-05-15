@@ -16,9 +16,8 @@ const HomeScreen = {
     <div>Going to Montreal theatres</div> 
     <div>Collecting suits and watches</div>
 
-    <h2>Follow Contact Me On :</h2>
-        <div>GitHub</div>
-        <div>LinkedIn</div> 
+    <h2>Follow Contact Me On :    <a>GitHub</a>  <a>LinkedIn</a> </h2>
+        
     
     `;
   },

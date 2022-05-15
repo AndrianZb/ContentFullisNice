@@ -24,17 +24,17 @@ const AboutScreen = {
             <br/> Recognized for good workplace ethics and problem-solving skills.
             </p>
             </div>
-            <h2>Education</h2>
+            <h2 style="border-radius: 10px;background-color: lightblue;" >Education</h2>
 
             <ul>
-              <li>DEC, COMPUTER SCIENCE: TECHNOLOGY <strong>2019 - 2022</strong> Champlain Regional College</li>
-              <li>CS50 PYTHON WEBINAR <strong>2021</strong> Hardvard Online Course</li>
+              <li>DEC, COMPUTER SCIENCE: TECHNOLOGY <strong>2019 - 2022</strong> <br/>Champlain Regional College</li>
+              <li>CS50 PYTHON WEBINAR <strong>2021</strong> <br/>Harvard Online Course</li>
            
             </ul>  
-            <h2>Professional Experience</h2>
+            <h2 style="border-radius: 10px;background-color: lightblue;"> Professional Experience</h2>
             <ul>
-            <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> NexOne, Saint-Hubert, QC</li>
-            <li>IT SUPPORT AGENT <strong>2019 - 2020</strong> NexOne, Saint-Hubert, QC</li>
+            <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> <br/>NexOne, Saint-Hubert, QC</li>
+            <li>IT SUPPORT AGENT <strong>2019 - 2020</strong> <br/>NexOne, Saint-Hubert, QC</li>
             </ul>  
      
             </div>
