@@ -30,12 +30,6 @@ const HomeScreen = {
 </div>
 
 
-<div style="border-style: solid; border-color: #262932; border-width: 50px" class="border border-primary">
-<p style="float: right;"><img src="../images/watch.jpg" alt="heyy" /></p>
-
-
-
-</div>
 
     <h2>Follow Me On :    <a>GitHub</a>  <a>LinkedIn</a> </h2>
     
