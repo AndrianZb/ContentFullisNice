@@ -51,6 +51,7 @@ li {
 }
 
 .typing-demo {
+  background-color: #e1e1e1;
   width: 22ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
