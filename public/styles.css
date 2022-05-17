@@ -369,7 +369,6 @@ image{
 }
 
 .footer .layout {
-  max-width: 30rem;
   margin: 0 auto;
   justify-content: space-between;
 }

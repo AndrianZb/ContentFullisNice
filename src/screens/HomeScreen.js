@@ -16,7 +16,7 @@ const HomeScreen = {
     </div>
 
 
-    <h2>Follow Me On :    <a>GitHub</a>  <a>LinkedIn</a> </h2>
+    <h2 style="text-align: right; text-color: white;" >Follow Me On :    <a>GitHub</a>  <a>LinkedIn</a> </h2>
     
     
 </div>
