@@ -48,7 +48,7 @@ const AboutScreen = {
             <br/><br/>
 
 
-            <h2 style="border-radius: 10px;background-color: lightblue;">Languages I speak</h2>
+            <h2 style="border-radius: 10px;background-color: #8377ff47;">Languages I speak</h2>
             <ul>
             <li>C#, Java, SQL, Python, JavaScript, C, PHP</li>
           
@@ -56,9 +56,9 @@ const AboutScreen = {
 
 
 
-            <h2 style="border-radius: 10px;background-color: lightblue;">Tools I use/h2>
+            <h2 style="border-radius: 10px;background-color: #8377ff47;">Tools I use</h2>
             <ul>
-            <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> NexOne, Saint-Hubert, QC</li>
+            <li>MS teams, Jira , C# , Toggl , GitHub, SourceTree, BitBucket, Moqups</li>
          
             </ul>  
             </div>
