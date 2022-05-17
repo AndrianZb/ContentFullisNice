@@ -23,13 +23,13 @@ const AboutScreen = {
             <br/>
             <hr/>
             <br/>
-            <h2>Web Developer, Software Developer & Wristwatch enthusiast​.</h2>
+            <h2 style="    text-align: center;">Web Developer, Software Developer & Wristwatch Enthusiast​.</h2>
             <p>
             Proven technical abilities and a distinguished record for achieving cost-saving measures in a secure environment. Highly energetic and driven to succeed. 
             <br/> Recognized for good workplace ethics and problem-solving skills.
             </p>
             </div>
-            <h2 style="border-radius: 10px;background-color: lightblue;" >Education</h2>
+            <h2 style=" text-align: center;border-radius: 10px;background-color: lightblue;" >Education</h2>
 
             <ul>
               <li>DEC, COMPUTER SCIENCE: TECHNOLOGY <strong>2019 - 2022</strong> Champlain Regional College</li>
@@ -37,7 +37,7 @@ const AboutScreen = {
            
             </ul>  
             <br/><br/>
-            <h2 style="border-radius: 10px;background-color: lightblue;"> Professional Experience</h2>
+            <h2 style="text-align: center; border-radius: 10px;background-color: lightblue;"> Professional Experience</h2>
             <ul>
             <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> NexOne, Saint-Hubert, QC</li>
             <img style="width: 100px;" src="../images/nexone.png" />
@@ -48,7 +48,7 @@ const AboutScreen = {
             <br/><br/>
 
 
-            <h2 style="border-radius: 10px;background-color: #8377ff47;">Languages I speak</h2>
+            <h2 style="text-align: center; border-radius: 10px;background-color: #8377ff47;">Languages I speak</h2>
             <ul>
             <li>C#, Java, SQL, Python, JavaScript, C, PHP</li>
           
@@ -56,7 +56,7 @@ const AboutScreen = {
 
 
 
-            <h2 style="border-radius: 10px;background-color: #8377ff47;">Tools I use</h2>
+            <h2 style="text-align: center; border-radius: 10px;background-color: #8377ff47;">Tools I use</h2>
             <ul>
             <li>MS teams, Jira , C# , Toggl , GitHub, SourceTree, BitBucket, Moqups</li>
          
