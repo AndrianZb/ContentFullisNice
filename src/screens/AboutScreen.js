@@ -39,9 +39,9 @@ const AboutScreen = {
             <h2 style="border-radius: 10px;background-color: lightblue;"> Professional Experience</h2>
             <ul>
             <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> <br/>NexOne, Saint-Hubert, QC</li>
-            <img style="    width: 100px;" src="../images/nexone.png" />
+            <img style="width: 100px;" src="../images/nexone.png" />
             <li>IT SUPPORT AGENT <strong>2019 - 2020</strong> <br/>RCMP, Montreal, QC</li>
-            <img style="    width: 100px;"  src="../images/rcmp.png" />
+            <img style="width: 100px;height: 25px;"  src="../images/rcmp.png" />
             </ul>  
 
      
