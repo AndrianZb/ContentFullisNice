@@ -36,6 +36,7 @@ const AboutScreen = {
               <li>CS50 PYTHON WEBINAR <strong>2021</strong> Harvard Online Course</li>
            
             </ul>  
+            <br/><br/>
             <h2 style="border-radius: 10px;background-color: lightblue;"> Professional Experience</h2>
             <ul>
             <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> NexOne, Saint-Hubert, QC</li>
@@ -43,8 +44,23 @@ const AboutScreen = {
             <li>IT SUPPORT AGENT <strong>2019 - 2020</strong> RCMP, Montreal, QC</li>
             <img style="width: 100px;height: 25px;"  src="../images/rcmp.png" />
             </ul>  
+            <br/>
+            <br/><br/>
 
-     
+
+            <h2 style="border-radius: 10px;background-color: lightblue;">Languages I speak</h2>
+            <ul>
+            <li>C#, Java, SQL, Python, JavaScript, C, PHP</li>
+          
+            </ul>  
+
+
+
+            <h2 style="border-radius: 10px;background-color: lightblue;">Tools I use/h2>
+            <ul>
+            <li>JUNIOR DEVELOPER <strong>2022 - PRESENT</strong> NexOne, Saint-Hubert, QC</li>
+         
+            </ul>  
             </div>
             </div>
             
