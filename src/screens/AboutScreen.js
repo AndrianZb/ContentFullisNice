@@ -50,7 +50,7 @@ const AboutScreen = {
 
             <h2 style="text-align: center; border-radius: 10px;background-color: #8377ff47;">Languages I speak</h2>
             <ul>
-            <li>C#, Java, SQL, Python, JavaScript, C, PHP</li>
+            <li style="text-align: center;">C#, Java, SQL, Python, JavaScript, C, PHP</li>
           
             </ul>  
 
@@ -58,7 +58,7 @@ const AboutScreen = {
 
             <h2 style="text-align: center; border-radius: 10px;background-color: #8377ff47;">Tools I use</h2>
             <ul>
-            <li>MS teams, Jira , C# , Toggl , GitHub, SourceTree, BitBucket, Moqups</li>
+            <li style="text-align: center;">MS teams, Jira , C# , Toggl , GitHub, SourceTree, BitBucket, Moqups</li>
          
             </ul>  
             </div>
