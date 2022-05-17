@@ -8,7 +8,13 @@ const HomeScreen = {
     return `<div>
    
 
+    <div class="wrapper">
+    <div class="typing-demo">
+      This is a typing demo.
+    </div>
 
+    </div>
+    
 
     <h2>Follow Me On :    <a>GitHub</a>  <a>LinkedIn</a> </h2>
     
