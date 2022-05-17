@@ -6,15 +6,8 @@ const ContactScreen = {
             <div class="article-container">
             <div class="content">
            
-            <div class="content-img">
-            <img style="border-radius: 20px" src="./images/Asset 4.svg" alt="" />
-            </div>
-            <p>
-         test in here
-            </p>
-            <p>
-         ggawsew
-            </p>
+     
+         
             ${Form.render()}
             </div>
             </div>
